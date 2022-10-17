@@ -1,0 +1,38 @@
+.account_password {
+  padding: 50px;
+  &-form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    .error {
+      margin: 5px 0 0 2px;
+      font-size: 14px;
+      color: #e45454;
+    }
+  }
+
+  &_box {
+    position: relative;
+  }
+
+  &_icon {
+    font-size: 24px;
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .account_password {
+    padding: 20px;
+    &-form {
+      padding: 15px;
+      gap: 10px;
+    }
+  }
+}

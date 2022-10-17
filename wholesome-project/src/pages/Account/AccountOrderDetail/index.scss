@@ -1,0 +1,61 @@
+.account_order_detail {
+  padding: 50px;
+  &-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  &-reciever {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  &-table {
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    .product_comment_img {
+      width: 200px;
+    }
+  }
+  &-mobile {
+    display: none;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  &-price {
+    font-size: 16px;
+
+    li {
+      padding: 2px 0;
+    }
+  }
+  &-total {
+    font-size: 20px;
+  }
+  img {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .account_order_detail {
+    padding: 35px;
+    &-table {
+      display: none;
+    }
+    &-mobile {
+      display: block;
+    }
+    img {
+      width: 90px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .account_order_detail {
+    padding: 20px;
+    img {
+      width: 100px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.account-breadcrumb {
+  font-size: 13px;
+  height: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .account-breadcrumb {
+    height: 35px;
+    margin-bottom: 15px;
+  }
+}
